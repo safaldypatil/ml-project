@@ -26,8 +26,5 @@ steps:
     run: az extension add -n ml
 
   - name: Run ML Job
-    run: |
-      az ml job create --file job.yml \
-      --resource-group zeeshansayyed4242-rg \
-      --workspace-name zeeshan23
+    run: az ml job create --file job.yml --resource-group zeeshansayyed4242-rg --workspace-name zeeshan23
 ```
