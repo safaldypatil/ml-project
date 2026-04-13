@@ -1,4 +1,4 @@
-name: AzureML
+name: azure-ml
 
 on:
 push:
